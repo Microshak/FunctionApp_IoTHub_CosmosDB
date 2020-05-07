@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "connection": "hubcon",
+  "extensions": {
+    "cosmosDB": {
+      "connectionMode": "Gateway",
+      "protocol": "Https",
+      "leaseOptions": {
+        "leasePrefix": "prefix1"
+      }
+    }
+  }
+}
